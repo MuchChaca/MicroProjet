@@ -1,0 +1,110 @@
+body{
+    margin : 0;
+    padding : 0;
+    /* background : #273340; */
+    text-align : center;
+    width : 100%;
+    height : 100%;
+    font-family : verdana, arial, "sans-serif";
+    color: black;
+}
+
+header {
+    background : url('img/slide.png') repeat, #101C28;
+    height : 70px;
+    padding-top: 10px;
+    width: 100%;
+    position: fixed;
+    z-index:10;
+}
+
+h1, h2, h3, h4 {
+    padding : 0;
+    margin : 0;
+    color: grey;
+}
+label{
+    color: #273340;
+}
+p{
+
+}
+
+.preamble {
+    position : relative;
+    left : 25%;
+    width : 800px;
+    padding : 0 0 0 0;
+    margin : 0;
+    font-size : 18px;
+    padding-bottom: 30px;
+    padding-top: 100px;
+
+
+}
+
+.preamble  a:link, .preamble a:active, .preamble  a:visited {
+    color : #909FB1;
+    font-weight : bold;
+
+}
+.preamble  a:hover {
+    color : #f50;
+
+}
+
+
+footer {
+    text-align : center;
+    width: 100%;
+    border-bottom : 1px solid #68717A;
+    padding : 0px;
+    background : url('img/slide.png') repeat, #101C28;
+    margin : 0 0 0 0;
+    font-size : 16px;
+    font-weight : normal;
+    color: white;
+    position: fixed;
+    bottom: 0px;
+}
+ul {
+    list-style : none;
+}
+nav{
+    float: left;
+    position: fixed;
+    text-align: left;
+    display: block;
+    height: 100%;
+    margin-top:50px;
+}
+.design-selection {
+    float: left;
+    font-size : 20px;
+}
+.design-selection li {
+    /*padding-left: 70%;*/
+
+    color : #909FB1;
+}
+.design-selection a:link, .design-selection a:active, .design-selection a:visited {
+    color : #909FB1;
+    font-weight : bold;
+}
+.design-selection a:hover {
+    color : #f50;
+}
+.det{
+    color : #909FB1;
+    text-align: left;
+}
+.det p{
+    text-align: center;
+}
+.plan{
+    position: relative;
+    float: left;
+    margin-left: 23%;
+    margin-top: 0px;
+    margin-bottom: 80px;
+}
